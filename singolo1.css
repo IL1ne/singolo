@@ -71,6 +71,10 @@ nav {
     margin-top: 13px;
 }
 
+.nav-item:hover {
+    color: #f06c64;
+}
+
 .nav-item:before{
     content: '.';
     position: absolute;
