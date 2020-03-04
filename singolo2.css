@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', Verdana, sans-serif;
+  }
+
+main {
+    display:  grid;
+    grid-template-rows: 870px 6px 728px 6px; 
+    margin: 0 auto;
+    width: 1020px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 960px; 
+}
+
+.content {
+    padding: 10px;
+}
+
+/* Portfolio section */
+
+#portfolio {
+    background-color: #2d303a;
+    color: #767e9e;
+}
+
+#portfolio .content {
+    margin-top: 34px;
+}
+
+.portfolioTitle {
+    font-size: 30px;
+    color: #666d89;
+    line-height: 18px;
+    font-weight: 900;
+    text-align: left;
+}
+
+.portfolioSubtitle {
+    margin-top: 27px;
+    margin-bottom: 11px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    text-align: left;
+}
+
+.portfolioFilter a {
+    display: inline;
+    text-decoration: none;
+    color: #767e9e;
+    border-radius: 5px;
+    border: 1px solid #666d89;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    text-align: left;
+    padding: 3px 5px;
+    margin-right: 10px;
+}
+
+
+
+.portfolioList {
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolioItem {
+    width: 220px;
+}
+
+portfolio__bottom {
+    background-color: #323746;
+}
+/* End portfolio section */
+
+/* About Us section */
+
+#aboutUs {
+    background-color: #f2f2f2;
+}
+
+.aboutUsTitle {
+    font-size: 30px;
+    line-height: 18px;
+    color: #666d89;
+    font-weight: 900;
+    text-align: left;
+}
+
+aboutUsSubtitle {
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+    font-weight: 300;
+    text-align: left;
+}
+
+.teamList {
+    display: flex;
+}
+
+.teamMember {
+    margin: 10px;
+}
+
+.memberName {
+    font-size: 18px;
+    line-height: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+    text-align: left;
+}
+
+.memberDescription {
+    width: 300px;
+    height: 175px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #767e9e;
+    font-family: "Lato";
+    font-weight: 400;
+    text-align: left;
+}
+
+aboutUs__bottom {
+    background-color: #ffffff;
+}
+
+
+/* End about Us section */
